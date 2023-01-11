@@ -45,7 +45,7 @@ Other goals are analyze the performance of various types of machine learning mod
 </p>
 
   The complete notebook of Exploratory Data Analysis is
-  [here](Classification_of_UDSculptures_ResNet50.ipynb) 
+  [here](Predicting_building_energy_consumption_EDA.ipynb) 
   .
 
 ## Handling Missing Data
