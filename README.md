@@ -5,7 +5,7 @@
 2. [Project Goals](#project-goals)
 3. [Data Description](#data-description)
 4. [Exploratory Data Analysis](#exploratory-data-analysis)
-4. [Data Cleaning – Handling Missing Data](#handling-missing-data)
+5. [Data Cleaning – Handling Missing Data](#handling-missing-data)
 5. [FAQs](#faqs)
 
 ## Introduction
@@ -44,7 +44,15 @@ Other goals are analyze the performance of various types of machine learning mod
 <p align="justify">The data set is comparatively large and there are 75,757 instances (rows) in the dataset. The dataset has 63 variables(features) which include both categorical and numerical variables.
 </p>
 
-  The complete notebook of Exploratory Data Analysis is
+### The Correlation Statistics  of Numerical Variables
+
+<p align="justify">Correlation describes the relationship between features. It can be positive; an increase in one feature’s value improves the value of the other variable, or negative; an increase in one feature’s value decreases the value of the other variable.
+</p>
+<p align="justify">The correlation matrix  shows a lot of climate features seem to be correlated(positively or negatively) with each other. It is possible to combine some of those features with each other to reduce the number of features and, eventually they could help to increase the accuracy of the model. 
+</p>
+
+
+The complete notebook of Exploratory Data Analysis is
   [here](Predicting_building_energy_consumption_EDA.ipynb) 
   .
 
