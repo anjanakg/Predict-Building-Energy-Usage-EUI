@@ -44,6 +44,10 @@ Other goals are analyze the performance of various types of machine learning mod
 <p align="justify">The data set is comparatively large and there are 75,757 instances (rows) in the dataset. The dataset has 63 variables(features) which include both categorical and numerical variables.
 </p>
 
+  The complete notebook of Exploratory Data Analysis is
+  [here](Classification_of_UDSculptures_ResNet50.ipynb) 
+  .
+
 ## Handling Missing Data
 
 <p align="center">
