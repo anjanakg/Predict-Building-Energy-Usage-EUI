@@ -33,5 +33,8 @@ Other goals are analyze the performance of various types of machine learning mod
 ## Variables(Features)
 
 <p align="center">
-  <img src="https://github.com/anjanakg/Visualizing-Hidden-Stories-Using-Deep-Learning/blob/main/images/Picture1.png" width="350" title="Final output">
+  <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image1.jpg" width="1000">
 </p>
+
+## Data Cleaning – Handling Missing Data
+
