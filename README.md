@@ -14,16 +14,22 @@
 
 ## Project Goals
 
-The main goal of this project is to predict the building EUI using regression and feature selection models. 
+<p align="justify">The main goal of this project is to predict the building EUI using regression and feature selection models.
+Other goals are analyze the performance of various types of machine learning models. And apply model improvement techniques and observe the model performances. 
+</p>
 
 ## Data Description
 
-The data set was collected from Kaggle WiDS Datathon 2022 Competition. The original dataset was created by collaboration with Climate Change AI (CCAI) and Lawrence Berkeley National Laboratory (Berkeley Lab). 
+<p align="justify">The data set was collected from Kaggle WiDS Datathon 2022 Competition. The original dataset was created by collaboration with Climate Change AI (CCAI) and Lawrence Berkeley National Laboratory (Berkeley Lab). 
+</p>
+<p align="justify">The dataset includes roughly 76,000 observations of building energy usage records, building characteristics, and site climate and weather data collected over 7 years in several states within the United States. 
+</p>
 
-The dataset includes roughly 76,000 observations of building energy usage records, building characteristics, and site climate and weather data collected over 7 years in several states within the United States. 
 - There are 75,757  instances (rows) in the dataset.
 - The dataset has 63 variables(features).  
 - Most of variables are numerical
 - 4 categorical variables : state_factor, building_class, facility_type and year_factor.
+
+## Variables(Features)
 
 
