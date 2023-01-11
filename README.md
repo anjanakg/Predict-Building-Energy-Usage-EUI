@@ -51,6 +51,10 @@ Other goals are analyze the performance of various types of machine learning mod
 <p align="justify">The correlation matrix  shows a lot of climate features seem to be correlated(positively or negatively) with each other. It is possible to combine some of those features with each other to reduce the number of features and, eventually they could help to increase the accuracy of the model. 
 </p>
 
+<p align="center">
+  <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image3.jpg" width="800">
+</p>
+
 
 The complete notebook of Exploratory Data Analysis is
   [here](Predicting_building_energy_consumption_EDA.ipynb) 
