@@ -38,3 +38,6 @@ Other goals are analyze the performance of various types of machine learning mod
 
 ## Data Cleaning – Handling Missing Data
 
+<p align="center">
+  <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image2.jpg" width="1000">
+</p>
