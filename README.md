@@ -32,4 +32,6 @@ Other goals are analyze the performance of various types of machine learning mod
 
 ## Variables(Features)
 
-
+<p align="center">
+  <img src="https://github.com/anjanakg/Visualizing-Hidden-Stories-Using-Deep-Learning/blob/main/images/Picture1.png" width="350" title="Final output">
+</p>
