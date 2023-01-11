@@ -1,5 +1,13 @@
 # Building Energy Efficiency Analysis via Regression and Feature Selection
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Project Goals](#project-goals)
+3. [Data Description](#data-description)
+4. [Exploratory Data Analysis](#exploratory-data-analysis)
+4. [Data Cleaning – Handling Missing Data](#handling-missing-data)
+5. [FAQs](#faqs)
+
 ## Introduction
 
 - Energy Use Intensity (**EUI**) and **ENERGY STAR** ratings are 2 of most common ways to identify energy efficiency of a building.
@@ -25,19 +33,21 @@ Other goals are analyze the performance of various types of machine learning mod
 <p align="justify">The dataset includes roughly 76,000 observations of building energy usage records, building characteristics, and site climate and weather data collected over 7 years in several states within the United States. 
 </p>
 
-- There are 75,757  instances (rows) in the dataset.
-- The dataset has 63 variables(features).  
-- Most of variables are numerical
-- 4 categorical variables : state_factor, building_class, facility_type and year_factor.
-
 ## Variables(Features)
 
 <p align="center">
   <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image1.jpg" width="1000">
 </p>
 
-## Data Cleaning – Handling Missing Data
+## Exploratory Data Analysis
+
+<p align="justify">The data set is comparatively large and there are 75,757 instances (rows) in the dataset. The dataset has 63 variables(features) which include both categorical and numerical variables.
+</p>
+
+## Handling Missing Data
 
 <p align="center">
   <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image2.jpg" width="1000">
 </p>
+
+
