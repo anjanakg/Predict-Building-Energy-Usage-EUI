@@ -6,7 +6,7 @@
 3. [Data Description](#data-description)
 4. [Exploratory Data Analysis](#exploratory-data-analysis)
 5. [Data Preprocessing](#data-preprocessing)
-5. [FAQs](#faqs)
+
 
 ## Introduction
 
