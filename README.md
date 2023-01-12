@@ -66,4 +66,5 @@ The complete notebook of Exploratory Data Analysis is
   <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image2.jpg" width="1000">
 </p>
 
+### Analyze the Dependent Variable 'site_eui'
 
