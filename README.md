@@ -5,7 +5,7 @@
 2. [Project Goals](#project-goals)
 3. [Data Description](#data-description)
 4. [Exploratory Data Analysis](#exploratory-data-analysis)
-5. [Data Cleaning – Handling Missing Data](#handling-missing-data)
+5. [Data Preprocessing](#data-preprocessing)
 5. [FAQs](#faqs)
 
 ## Introduction
@@ -61,13 +61,32 @@ Other goals are analyze the performance of various types of machine learning mod
   <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image4.jpg" width="1000">
 </p>
 
-The complete notebook of Exploratory Data Analysis is
+### Correlations with the Target Variable
+
+<p align="justify">The following table shows the five best correlations with the target variable site_eui. Energy_star_rating shows the highest correlation, and it is a negative correlation. Simply this correlation describes that a building with low site_eui has a high Energy_star_rating and it is an energy efficient building.   
+</p>
+
+<p align="center">
+  <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image5.jpg" width="1000">
+</p>
+  
+  The complete notebook of Exploratory Data Analysis is
   [here](Predicting_building_energy_consumption_EDA.ipynb) 
   .
 
-## Handling Missing Data
+## Data Preprocessing 
 
+<p align="justify"> Data preprocessing is an important process in machine learning. Preprocessing is a process of identifying missing values, inconsistencies, and noise of a dataset and take required action to correct them. It can help to improve the quality of the data. Also, data preprocessing can help to reduce the required time and resources to train the machine learning algorithm. Eventually, data preprocessing can help to improve the accuracy of the machine learning algorithm.
+</p>
+
+### Dealing with Missing Data
+  
+<p align="justify"> Missing data is a common issue in most of the raw data sets. This dataset is also having a considerable number of missing values.
+</p>
 <p align="center">
   <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image2.jpg" width="1000">
 </p>
 
+<p align="center">
+  <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image6.jpg" width="1000">
+</p>
