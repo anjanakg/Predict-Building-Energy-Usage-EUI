@@ -94,3 +94,4 @@ Other goals are analyze the performance of various types of machine learning mod
 - In my dataset four variables have more than 50% missing values. I just assumed those variables are not important for my analysis and dropped all the columns which contain more than 50% of missing values from the original data frame.
 - There are 1837 missing values for the variable building age. Since the dataset is considerably large,  I decided to drop all the rows which contain missing values for the attribute "building_age“. 
 - Usually, the energy star rating is a score between 1-100. There could be some buildings that do not get a rating yet. So, I replaced all the missing values in "energy_star_rating" with "0".
+
