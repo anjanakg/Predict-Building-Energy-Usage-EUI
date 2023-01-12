@@ -55,6 +55,11 @@ Other goals are analyze the performance of various types of machine learning mod
   <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image3.jpg" width="800">
 </p>
 
+### Analyze the Dependent Variable 'site_eui'
+
+<p align="center">
+  <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image4.jpg" width="1000">
+</p>
 
 The complete notebook of Exploratory Data Analysis is
   [here](Predicting_building_energy_consumption_EDA.ipynb) 
@@ -65,6 +70,4 @@ The complete notebook of Exploratory Data Analysis is
 <p align="center">
   <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/image2.jpg" width="1000">
 </p>
-
-### Analyze the Dependent Variable 'site_eui'
 
