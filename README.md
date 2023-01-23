@@ -164,3 +164,11 @@ Extreme gradient boosting or XGBoost: XGBoost is an implementation of gradient b
   <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/Picture7.jpg" width="1000">
 </p>
 
+<p align="justify">Linear regression tries to capture the linear relationship between the input variables and the target variable. The above results show that the error weights are very high and model fitting goes bad in linear regression. So, we can say that there are not any linier relationships between our input variables and target variables.
+</p>
+
+<p align="justify">The Decision Tree Regression and Random Forest Regression show excellent performance for training data. But the models are not working well for the test dataset. So, we can assume that these models are overfitting.
+</p>
+
+<p align="justify">Extreme gradient boosting and Categorical Boosting models show considerably good performances. However, we cannot assume as those models are not overfitting by looking at these results.
+</p>
