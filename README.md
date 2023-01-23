@@ -9,6 +9,7 @@
 6. [Model Building](#model-building)
 7. [Model Training Evaluation and Testing](#model-training-evaluation-and-testing)
 8. [Model Improving Techniques](#model-improving-techniques)
+9. 
 
 
 ## Introduction
@@ -219,7 +220,7 @@ Extreme gradient boosting or XGBoost: XGBoost is an implementation of gradient b
 
 ## Results and Discussion
 
-(-) Categorical Boosting model shows the best performance in site EUI prediction. The RMSE is 34.570 and R2  is 0.606. However, still, we cannot assume this prediction is perfect and the model is not overfitting. 
+* Categorical Boosting model shows the best performance in site EUI prediction. The RMSE is 34.570 and R2  is 0.606. However, still, we cannot assume this prediction is perfect and the model is not overfitting. 
 (-) The feature correlation matrix shows a considerable correlation between most climate features. Those correlations can lead to poor performance of regression and other ML algorithms. Those highly correlated features may mislead our models. We can create new features by using those features.
 (-) All the selected models considered state_factor, facility_type, building_class, floor_area, energy_star_rating, building_age as important features. When we look at the feature correlation matrix, the above features show a very low correlation with other features. That could be the reason for this feature selection. 
 (-) According to my view eXtreme Gradient Boosting model is giving the best fit. However, the model is still giving  low performances than other models. 
