@@ -172,3 +172,41 @@ Extreme gradient boosting or XGBoost: XGBoost is an implementation of gradient b
 
 <p align="justify">Extreme gradient boosting and Categorical Boosting models show considerably good performances. However, we cannot assume as those models are not overfitting by looking at these results.
 </p>
+
+## Model Improving Techniques
+
+<p align="justify">A machine learning process involves training different models on the dataset and selecting the one with best performance. As shown in above, evaluating the performance of algorithm is not always a straightforward task. There are several factors that can help you determine which algorithm performance best. One such factor is the performance on cross validation set and another other factor is the choice of parameters for an algorithm. 
+</p>
+
+### Cross Validation
+
+<p align="justify">Normally, in machine learning process, we divide data into training and test sets. The training set is then used to train the model and the test set is used to evaluate the performance of the model. However, this approach may lead to variance problems. Simply, the accuracy obtained on one test can highly deviate from the accuracy got on another test set using the same algorithm.
+</p>
+<p align="justify">To overcome this issue, we can use K-Fold Cross-Validation for performance evaluation where K is any number. In K-Fold Cross-Validation we divide the data into K folds. Out of the K folds, K-1 sets are used for training while the remaining set is used for testing. The algorithm is trained and tested K times, each time a new set is used as testing set while remaining sets are used for training. Finally, the result of the K-Fold Cross-Validation is the average of the results obtained on each set. Finally, we can in fact find the variance in the overall result by using standard deviation of the results obtained from each fold. This is helping to minimize the variance problem in our model performance evaluation.
+</p>
+
+### Grid Search 
+
+<p align="justify">A Machine Learning model is a mathematical model with various parameters that need to be learned from the data. When we are training a model, these parameters are fitting with existing data.
+</p>
+
+<p align="justify">The other kind of parameters in a machine learning model are known as Hyperparameters. These parameters express important properties of the model such as its complexity or how fast it should learn. They cannot learn directly from a regular training process. We usually fix them before the actual training process begins. Models can have many hyperparameters and finding the best combination of parameters can be treated as a search problem. The two widely use strategies for Hyperparameter tuning are Grid Search Cross Validation(GridSearchCV) and Randomized Search Cross Validation(RandomizedSearchCV). In this project I used GridSearchCV Hyperparameter tuning for this project.
+</p>
+
+### Feature Selection 
+
+<p align="justify">We called input variables we give to a machine learning models as features. Each column in a dataset represents a feature. To train an optimal model, we need to make sure that we use only the essential features. Having too many features could be a disadvantage for a machine learning model. They could lead to capture the unimportant patterns and learn from noise. Therefore, it is important to find out the optimal set of parameters for a best model performance. The method of choosing the important parameters of a dataset is called Feature Selection. Feature selection could help machine learning algorithms to run more efficiently (less space or time complexity) and be more effective.
+</p>
+
+<p align="justify">In this project, I used only supervised learning machine learning algorithms. There are three main types of feature selection models in supervised learning called: Filter Method, Wrapper Method, and Intrinsic Method. 
+</p>
+
+<p align="justify">I selected the Recursive Feature Elimination (RFE) in this project. It is a wrapper-type feature selection algorithm. RFE works by searching for a subset of features by starting with all features in the training dataset and successfully removing features until the desired number remains. This is achieved by fitting the given machine learning algorithm used in the core of the model, ranking features by importance, discarding the least important features, and re-fitting the model. This process is repeated until a specified number of features remains.
+</p>
+
+**Model Performance Evaluation after Applying Model Improving Techniques**
+
+<p align="center">
+  <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/Picture8.jpg" width="1000">
+</p>
+
