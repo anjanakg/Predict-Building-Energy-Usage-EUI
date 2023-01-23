@@ -8,6 +8,7 @@
 5. [Data Preprocessing](#data-preprocessing)
 6. [Model Building](#model-building)
 7. [Model Training Evaluation and Testing](#model-training-evaluation-and-testing)
+8. [Model Improving Techniques](#model-improving-techniques)
 
 
 ## Introduction
