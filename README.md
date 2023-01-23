@@ -160,5 +160,7 @@ Extreme gradient boosting or XGBoost: XGBoost is an implementation of gradient b
 
 **First, I did the regression by using simple base models build with the regression algorithms and obtained following results.**
 
-
+<p align="center">
+  <img src="https://github.com/anjanakg/Predict-EUI/blob/main/assets/picture7.jpg" width="1000">
+</p>
 
